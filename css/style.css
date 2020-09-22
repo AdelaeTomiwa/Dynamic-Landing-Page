@@ -1,0 +1,35 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   height: 100vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #333;
+}
+
+#time {
+   font-size: 8rem;
+}
+
+h1 {
+   margin-bottom: 3rem;
+}
+
+h2 {
+   margin-bottom: 0.5rem;
+   opacity: 0.6;
+}
+
+@media (max-screen: 700px) {
+   #time {
+      font-size: 6rem;
+   }
+}
