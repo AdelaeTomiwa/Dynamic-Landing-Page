@@ -9,11 +9,11 @@ const showAmPm = true;
 
 // Show Time
 function showTime() {
-   // let today = new Date(2019, 06, 10, 18, 33, 30);
-   let today = new Date(),
-      hour = today.getHours(),
-      min = today.getMinutes(),
-      sec = today.getSeconds();
+   let today = new Date(2019, 06, 10, 18, 33, 30);
+   // let today = new Date(),
+   (hour = today.getHours()),
+      (min = today.getMinutes()),
+      (sec = today.getSeconds());
 
    // Set AM or PM
    const amPm = hour >= 12 ? 'PM' : 'AM';
